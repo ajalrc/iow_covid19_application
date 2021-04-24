@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://epe.brightspotcdn.com/68/c8/6d5778bb41fbb6a654bc8b6ae8c9/coronavirus-vaccine-02-02.png");
+    object-fit: contain;
+}
+#header{
+    text-align: center;
+
+}
+.container{  
+    text-align: center;  
+     margin-bottom: 2rem;
+}  
+#button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+#button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.pretty{
+    text-align: center;
+}
+
+#location {
+  background-color: rgb(52, 197, 241);
+  box-shadow: 0 5px 0 rgb(5, 70, 90);
+  color: white;
+  border-radius: 12px;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+location:hover {
+  background-color: #0be2f1;
+  cursor: pointer;
+}
+#writing,#ending{
+    text-align: center;
+    border:1px none;
+    color:rgb(27, 194, 9);
+    font-family: Arial, Helvetica, cursive;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#writing h3{
+    font-size: 40px;
+    color: rgb(14, 189, 233);
+}
+@media (min-width:928px){
+    #writing p{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
