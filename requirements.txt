@@ -6,11 +6,11 @@ click-plugins==1.1.1
 cligj==0.7.1
 cycler==0.10.0
 decorator==4.4.2
-Django==3.2
+Django==3.2 
 django-livesync==0.5
-Fiona @ file:///D:/sixth%20semester/CRUD/pandas/geopandas%20dependencies/Fiona-1.8.19-cp39-cp39-win_amd64.whl
-GDAL @ file:///D:/sixth%20semester/CRUD/pandas/geopandas%20dependencies/GDAL-3.2.2-cp39-cp39-win_amd64.whl
-geopandas @ file:///D:/sixth%20semester/CRUD/pandas/geopandas%20dependencies/geopandas-0.9.0-py3-none-any.whl
+Fiona @ https://drakeedu-my.sharepoint.com/:u:/r/personal/ajal_rc_drake_edu/Documents/herokuupload/Fiona-1.8.19-cp39-cp39-win_amd64.whl?csf=1&web=1&e=QB7s7D
+GDAL @ https://drakeedu-my.sharepoint.com/:u:/r/personal/ajal_rc_drake_edu/Documents/herokuupload/GDAL-3.2.2-cp39-cp39-win_amd64.whl?csf=1&web=1&e=mGmmGd
+geopandas @ https://drakeedu-my.sharepoint.com/:u:/r/personal/ajal_rc_drake_edu/Documents/herokuupload/geopandas-0.9.0-py3-none-any.whl?csf=1&web=1&e=3Yasxg
 gunicorn==20.1.0
 joblib==1.0.1
 kiwisolver==1.3.1
@@ -23,13 +23,13 @@ pandas==1.2.4
 Pillow==8.2.0
 plotly==4.14.3
 pyparsing==2.4.7
-pyproj @ file:///D:/sixth%20semester/CRUD/pandas/geopandas%20dependencies/pyproj-3.0.1-cp39-cp39-win_amd64.whl
+pyproj @ https://drakeedu-my.sharepoint.com/:u:/r/personal/ajal_rc_drake_edu/Documents/herokuupload/pyproj-3.0.1-cp39-cp39-win_amd64.whl?csf=1&web=1&e=w78VC0
 python-dateutil==2.8.1
 pytz==2021.1
 retrying==1.3.3
 scikit-learn==0.24.1
 scipy==1.6.2
-Shapely @ file:///D:/sixth%20semester/CRUD/pandas/geopandas%20dependencies/Shapely-1.7.1-cp39-cp39-win_amd64.whl
+Shapely @ https://drakeedu-my.sharepoint.com/:u:/r/personal/ajal_rc_drake_edu/Documents/herokuupload/Shapely-1.7.1-cp39-cp39-win_amd64.whl?csf=1&web=1&e=LJY2l3
 six==1.15.0
 sqlparse==0.4.1
 threadpoolctl==2.1.0
