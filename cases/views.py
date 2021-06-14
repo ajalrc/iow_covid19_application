@@ -96,9 +96,9 @@ def confirmed_cases2(request,Location):
     
     
     if(Location['latitude']!=0):
-         gdf.plot(ax=ax1, color="green")
-         gdf.plot(ax=ax2, color="yellow")
-         gdf.plot(ax=ax3, color="blue")
+         gdf.plot(ax=ax1, color="green",markersize=85)
+         gdf.plot(ax=ax2, color="yellow",markersize=85)
+         gdf.plot(ax=ax3, color="black",markersize=85)
 
     
     
