@@ -4,8 +4,36 @@ This application gives you the real time mapped data of the Infected, Recovered,
 let this application find your location and double click to see you in the map below.
 (Source: The map was created using geopandas and matplotlib in spyder and integrated in Django.)
 
-To run the application:
-Suggestion:
-1. Please create a virtual environment : https://docs.python.org/3/library/venv.html
-2. Please install all the required packages in "requirement.txt"
-3. Please run the application using command "python manage.py runserver"
+**Setting up the virtual environment**
+
+We will create the virtual environment to make sure that we have all the required version of the packages for running the code without errors.
+To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
+
+```
+python3 -m venv your_venv_name
+```
+
+Once you’ve created a virtual environment, you may activate it.
+
+On Windows, run:
+
+```
+your_venv_name\Scripts\activate.bat
+```
+
+On Unix or MacOS, run:
+
+```
+source your_venv_name/bin/activate
+```
+**Installation of dependencies**
+
+Before running anything after cloning the repository, please make sure to install the required packages using command:
+
+```
+pip install -r requirements.txt
+```
+**Run the application**
+```
+python manage.py runserver
+```
